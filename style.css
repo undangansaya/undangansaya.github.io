@@ -2,9 +2,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-image: url('img/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 * {
@@ -12,25 +10,40 @@ body {
     padding: 0;
 }
 
+/* Container */
+
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
 /* Landing */
 
 .landing {
     position: absolute;
+    z-index: 9999;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(26, 26, 26, 0.349);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('img/bg-redup.jpg');
+    background-position: center;
+    background-size: cover;
+
 }
+
 
 .landing-caption {
     text-align: center;
     font-size: 4rem;
     font-family: 'Beau Rivage', cursive;
+    color: white;
 }
 
 .landing-name {
@@ -42,6 +55,30 @@ body {
 .landing-button {
     margin-top: 15rem;
     background-color: rgb(230, 69, 69);
+    padding: 12px 24px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 /* End of Landing */
+
+/* Main */
+
+.main {
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* End of Main */
+
+
+.page-one {
+    height: 25rem;
+}

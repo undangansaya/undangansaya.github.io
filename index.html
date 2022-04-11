@@ -9,18 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Inter:wght@400;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Fatim & Hasan Wedding</title>
 </head>
 
 <body>
     <!-- Layer Landing Page -->
-    <div class="landing">
-        <h2 class="landing-caption">The Wedding of</h2>
-        <h1 class="landing-name">Fatim & Hasan</h1>
-        <button class="landing-button" id="landing-button">Save the Date</button>
+    <div class="container">
+        <div class="landing">
+            <div class="layer"></div>
+            <h2 class="landing-caption">The Wedding of</h2>
+            <h1 class="landing-name">Fatim & Hasan</h1>
+            <button class="landing-button" id="landing-button">Buka Undangan</button>
+        </div>
+
+        <div class="main">
+            <h1>Halaman Utama</h1>
+        </div>
+        <section class="page-one">
+            <h1>Tanggal</h1>
+        </section>
     </div>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
 </body>
 
 </html>
