@@ -91,6 +91,8 @@ body {
 /* audio */
 .audio {
     position: absolute;
+    z-index: 999999;
+    top: 95%;
 }
 
 /* End of Audio */
