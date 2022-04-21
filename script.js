@@ -5,4 +5,5 @@ buttonLanding.addEventListener('click', function () {
     landing.classList.add('hide')
     const audio = new Audio('audio/audio.mpeg');
     audio.play();
+    audio.loop()
 })

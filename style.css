@@ -10,6 +10,17 @@ body {
     padding: 0;
 }
 
+
+/* utility */
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* Container */
 
 
@@ -38,22 +49,22 @@ body {
     transition-duration: 1s;
 }
 
+.landing-text {
+    display: flex;
+    flex-direction: column;
+}
 
 .landing-caption {
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Beau Rivage', cursive;
-    color: white;
+    font-size: 2rem;
 }
 
 .landing-name {
     font-size: 5rem;
     font-family: 'Inter', sans-serif;
-    color: white;
 }
 
 .landing-button {
-    margin-top: 15rem;
+    margin-top: 5rem;
     background-color: rgb(230, 69, 69);
     padding: 12px 24px;
     outline: none;
@@ -70,11 +81,18 @@ body {
 /* Main */
 
 .main {
-    background-image: url('img/bg.jpg');
+    background-image: url('img/bg2.png');
     background-position: center;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+
 
 /* End of Main */
 
@@ -84,15 +102,5 @@ body {
 }
 
 .hide {
-    transform: translateY(-100);
     opacity: 0;
 }
-
-/* audio */
-.audio {
-    position: absolute;
-    z-index: 999999;
-    top: 95%;
-}
-
-/* End of Audio */
