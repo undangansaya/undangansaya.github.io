@@ -35,7 +35,7 @@ body {
     background-image: url('img/bg-redup.jpg');
     background-position: center;
     background-size: cover;
-
+    transition-duration: 1s;
 }
 
 
@@ -82,3 +82,15 @@ body {
 .page-one {
     height: 25rem;
 }
+
+.hide {
+    transform: translateY(-100);
+    opacity: 0;
+}
+
+/* audio */
+.audio {
+    position: absolute;
+}
+
+/* End of Audio */

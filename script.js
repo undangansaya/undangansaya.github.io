@@ -2,14 +2,10 @@ const buttonLanding = document.getElementById('landing-button');
 const landing = document.querySelector('.landing')
 
 buttonLanding.addEventListener('click', function () {
-    landing.classList.add('hidden')
+    landing.classList.add('hide')
+
 })
 
-window.addEventListener('click', function (e) {
-    if (e.target != buttonLanding) {
-        landing.classList.toggle('hidden')
-    }
-})
 
 
 
