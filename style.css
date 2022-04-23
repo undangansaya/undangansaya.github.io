@@ -21,9 +21,11 @@ body {
     font-family: 'Beau Rivage', cursive;
 }
 
-/* .overflowY-hidden {
+
+.overflowY-hidden {
     overflow-y: hidden;
-} */
+}
+
 
 
 .text-white {
