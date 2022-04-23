@@ -108,10 +108,12 @@ body {
 
 .nama h1 {
     font-size: 4.5rem;
+    color: #557C55;
 }
 
 .dan {
     font-size: 5rem;
+    color: #D96098;
 }
 
 
@@ -136,7 +138,9 @@ body {
 }
 
 .caption-time {
-    font-size: 4rem;
+    font-size: 5rem;
+    outline-color: white;
+    color: #D96098;
 }
 
 .card {
@@ -159,6 +163,7 @@ body {
 .card-title {
     font-size: 3rem;
     margin: 2rem 1px;
+    color: #557C55;
 }
 
 .card-body {
@@ -183,7 +188,26 @@ body {
     opacity: 0;
 }
 
+/* doa */
 
+.doa {
+    padding: 8rem;
+}
+
+.doa h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #557C55;
+}
+
+.doa p {
+    font-size: 1.8rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* akhir doa */
 
 /* Responsive Breakpoint */
 
@@ -201,6 +225,10 @@ body {
 
     .dan {
         font-size: 8rem;
+    }
+
+    .doa {
+        padding: 4rem;
     }
 }
 
@@ -255,7 +283,28 @@ body {
         padding-top: 4rem;
     }
 
+    .card {
+        margin-top: 1rem;
+    }
+
     /* akhir time */
+
+
+    .doa {
+        padding: 2rem;
+    }
+
+    .doa h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .doa p {
+        font-size: 1rem;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+    }
 }
 
 /* Akhir Mobile */
