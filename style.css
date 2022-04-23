@@ -1,14 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-beau {
+    font-family: 'Beau Rivage', cursive;
+}
+
+.overflowY-hidden {
     overflow-y: hidden;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
+
+
+
 
 
 /* utility */
@@ -25,7 +43,6 @@ body {
 
 
 .container {
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -46,7 +63,7 @@ body {
     background-image: url('img/bg-redup.jpg');
     background-position: center;
     background-size: cover;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 .landing-text {
@@ -54,13 +71,11 @@ body {
     flex-direction: column;
 }
 
-.landing-caption {
-    font-size: 2rem;
-}
 
 .landing-name {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Inter', sans-serif;
+    word-wrap: break-word;
 }
 
 .landing-button {
@@ -87,14 +102,33 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
 
+.main-caption {
+    font-size: 2rem;
+}
+
+.nama h1 {
+    font-size: 4.5rem;
+}
+
+.dan {
+    font-size: 5rem;
+}
+
 
 /* End of Main */
+
+
+
+/* time */
+
+
+/* end time */
 
 
 .page-one {
@@ -102,5 +136,72 @@ body {
 }
 
 .hide {
+    top: -100%;
+    bottom: 100vh;
     opacity: 0;
 }
+
+
+
+/* Responsive Breakpoint */
+
+
+/* tablet */
+
+@media (max-width: 768px) {
+    .landing-name {
+        font-size: 5rem;
+    }
+
+    .landing-button {
+        font-size: 2rem;
+    }
+
+    .dan {
+        font-size: 8rem;
+    }
+}
+
+/* Akhir tablet */
+
+
+/* mobile */
+@media (max-width: 576px) {
+    .landing-name {
+        font-size: 3rem;
+    }
+
+    .landing-button {
+        font-size: 1.5rem;
+    }
+
+    /* main */
+
+    .main {
+        background-image: url('img/bg-potrait.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+    }
+
+    .main-caption {
+        margin-bottom: 1rem;
+    }
+
+    .nama h1 {
+        font-size: 3rem;
+    }
+
+    .nama h4 {
+        font-size: .8rem;
+    }
+
+    .dan {
+        font-size: 5rem;
+    }
+
+    /* akhir main */
+}
+
+/* Akhir Mobile */
