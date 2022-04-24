@@ -21,6 +21,10 @@ body {
     font-family: 'Beau Rivage', cursive;
 }
 
+.font-tangerine {
+    font-family: 'Tangerine', cursive;
+}
+
 
 .overflowY-hidden {
     overflow-y: hidden;
@@ -69,9 +73,9 @@ body {
 
 
 .landing-name {
-    font-size: 4rem;
-    font-family: 'Inter', sans-serif;
+    font-size: 8rem;
     word-wrap: break-word;
+    font-weight: 700;
 }
 
 .landing-button {
@@ -218,7 +222,7 @@ body {
 
 @media (max-width: 768px) {
     .landing-name {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     .landing-button {
@@ -240,7 +244,7 @@ body {
 /* mobile */
 @media (max-width: 576px) {
     .landing-name {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .landing-button {
