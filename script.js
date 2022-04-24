@@ -9,8 +9,9 @@ buttonLanding.addEventListener('click', function () {
     audio.play();
 
     mainAnimation();
-
 })
+
+
 
 
 function mainAnimation() {
@@ -19,24 +20,24 @@ function mainAnimation() {
         duration: 1,
         delay: 1,
         y: -100,
-        opacity: 0
+        opacity: 0,
     })
     gsap.from('.nama-perempuan', {
         duration: 1,
         delay: 2,
         y: -100,
-        opacity: 0
+        opacity: 0,
     })
     gsap.from('.dan', {
         duration: 1,
         delay: 3,
         y: -100,
-        opacity: 0
+        opacity: 0,
     })
     gsap.from('.nama-laki', {
         duration: 1,
         delay: 4,
         y: -100,
-        opacity: 0
+        opacity: 0,
     })
 }
