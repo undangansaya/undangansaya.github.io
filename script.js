@@ -15,12 +15,11 @@ buttonLanding.addEventListener('click', function () {
 
 
 function mainAnimation() {
-
-    gsap.from('.main-caption', {
-        duration: 1,
+    gsap.registerPlugin(TextPlugin);
+    gsap.to(".main-caption", {
+        duration: 2,
         delay: 1,
-        y: -100,
-        opacity: 0,
+        text: "We are Getting Married"
     })
     gsap.from('.nama-perempuan', {
         duration: 1,
